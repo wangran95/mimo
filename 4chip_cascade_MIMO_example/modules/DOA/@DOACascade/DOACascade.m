@@ -33,10 +33,7 @@
 
 %DOACascade.m
 %
-% DOACascade module definition. This module estimates the azimuth and
-% elevation (if enabled) angles using FFT based beamforming method. Muitple
-% peaks are detected in the azimuth direction, only maximum peak is
-% detected in the elevation direction.
+% DOACascade module definition. This module estimates the azimuth and elevation (if enabled) angles using FFT based beamforming method. Muitple peaks are detected in the azimuth direction, only maximum peak is detected in the elevation direction.
 
 %% Class definition
 
