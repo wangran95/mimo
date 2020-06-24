@@ -33,16 +33,12 @@
 
 %DOA_beamformingFFT_2D_joint.m
 %
-%DOA_beamformingFFT_2D_joint function perform 2D angle estimation based on FFT beamforming, both azimuth/elevation peak selection
-%is done in 2D FFT domain
+%DOA_beamformingFFT_2D_joint function perform 2D angle estimation based on FFT beamforming, both azimuth/elevation peak selection is done in 2D FFT domain
 
 
 %input:
 %   obj: object instance
-%   sig: complex signal vector, with each value corresponding to each
-%   antenna. The length of this vector equals to numTX x numRX enabled.
-%   There can be overlapped antennas. this signal needs to be re-arranged
-%   based on D value to form the virtual antenna array
+%   sig: complex signal vector, with each value corresponding to each antenna. The length of this vector equals to numTX x numRX enabled. There can be overlapped antennas. this signal needs to be re-arranged based on D value to form the virtual antenna array
 
 %output:
 %   angleObj_est: angle estimation results
