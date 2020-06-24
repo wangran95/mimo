@@ -33,9 +33,7 @@
 
 %DOA_beamformingFFT_2D.m
 %
-% DOA_beamformingFFT_2D function perform 2D angle estimation based on FFT
-%beamforming, the azimuth peak selection
-%is done in 1D FFT domain, the elevation peak selection is done after 2D FFT
+% DOA_beamformingFFT_2D function perform 2D angle estimation based on FFT beamforming, the azimuth peak selection is done in 1D FFT domain, the elevation peak selection is done after 2D FFT
 
 %input:
 %   obj: object instance sig: complex signal vector, with each value corresponding to each antenna. The length of this vector equals to numTX x numRX enabled. There can be overlapped antennas. this signal needs to be re-arranged based on D value to form the virtual antenna array
